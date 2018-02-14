@@ -30,7 +30,7 @@
     "angular-hotkeys": "^1.7.0",
     "angular-material": "^1.1.0",
     "angular-ui-codemirror": "^0.3.0",
-    "boom": "^4.0.0",
+    "boom": "^6.0.0",
     "codemirror": "^5.18.2",
     "material-colors": "^1.1.1",
     "micromatch": "^2.3.11",
