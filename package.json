@@ -12,7 +12,9 @@
     "test:server": "plugin-helpers test_server",
     "test:browser": "plugin-helpers test_browser",
     "build": "plugin-helpers build",
-    "postinstall": "plugin-helpers postinstall"
+    "postinstall": "plugin-helpers postinstall",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.0.2",
@@ -34,6 +36,8 @@
     "codemirror": "^5.18.2",
     "material-colors": "^1.1.1",
     "micromatch": "^2.3.11",
-    "path": "^0.12.7"
-  }
+    "path": "^0.12.7",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
